@@ -1,0 +1,17 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "*"
+dramatiq = {extras = ["rabbitmq", "watch"]}
+django-dramatiq = "*"
+"h2p" = "*"
+djangorestframework = "*"
+
+
+[dev-packages]
